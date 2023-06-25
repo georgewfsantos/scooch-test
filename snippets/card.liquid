@@ -21,7 +21,10 @@
     <img src="{{ product.images.first.src | img_url: '300x300' }}" alt="{{ product.title }}" loading="lazy">
     <footer class="card__footer">
       <span>{{ product.title }}</span>
-      <span>{{ product.price | money }}</span>
+      <div class="card__price">
+        <span>{{ product.compare_at_price | money }}</span>
+        <span class="card__compare__price">{{ product.price | money }}</span>
+      </div>
     </footer>
   </a>
 </li>
