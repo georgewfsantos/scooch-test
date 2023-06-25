@@ -767,6 +767,8 @@ details > * {
   --duration-short: 100ms;
   --duration-default: 200ms;
   --duration-long: 500ms;
+  --text-dark-200: #1d1d1b;
+  --text-dark-100: #757a81;
 }
 
 .underlined-link,
