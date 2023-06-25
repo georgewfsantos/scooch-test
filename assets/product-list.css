@@ -31,7 +31,7 @@
   }
 }
 
-@media only screen and (max-width: 389px) {
+@media only screen and (max-width: 390px) {
   .product__list ul {
     grid-template-columns: 1fr;
   }
