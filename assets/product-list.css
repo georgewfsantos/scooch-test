@@ -5,6 +5,9 @@
   justify-content: center;
   align-items: center;
 }
+.product-list h2 {
+  font-family: "Above the Beyond Serif", sans-serif;
+}
 
 .product-list ul {
   display: flex;
