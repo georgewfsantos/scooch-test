@@ -8,23 +8,6 @@
   {% if products.size > 0 %}
     <ul>
       {% for product in products %}
-        {% comment %} <li>
-          <a href="{{ product.url }}" class="block">
-            <div>
-              {% include 'card',
-                title: product.title,
-                vendor: product.vendor,
-                title_link: product.url,
-                price: product.price,
-                price_compare: product.compare_at_price_max,
-                price_varies: product.price_varies,
-                badge: product.badge,
-                rating: product.rating,
-                featured_image: product.featured_image
-              %}
-            </div>
-          </a>
-        </li> {% endcomment %}
         {% include 'card' with product %}
       {% endfor %}
     </ul>
