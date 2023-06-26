@@ -403,6 +403,15 @@
 
 }
 
+@media only screen and (min-width: 991px) and (max-width: 1270px) {
+  .product__container {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 53px;
+  }
+}
+
 @media only screen and (min-width: 991px) and (max-width: 1439px) {
   .product__container {
     display: flex;
