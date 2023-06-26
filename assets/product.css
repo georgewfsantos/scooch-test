@@ -403,20 +403,7 @@
 
 }
 
-@media only screen and (min-width: 991px) and (max-width: 1270px) {
-  .product__container {
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
-    padding: 53px;
-  }
-
-  .product__content {
-    flex-direction: column;
-  }
-}
-
-@media only screen and (min-width: 1271px) and (max-width: 1439px) {
+@media only screen and (min-width: 991px) and (max-width: 1439px) {
   .product__container {
     display: flex;
     padding: 20px;
